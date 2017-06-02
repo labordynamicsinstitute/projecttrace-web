@@ -1,36 +1,14 @@
 /* -----------------------------------------------------------------------------
 
   FONTS
-  
+
 ----------------------------------------------------------------------------- */
-@font-face {
-  font-family: 'Oxygen';
-  font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/oxygen/oxygen-v5-latin-300.eot");
-  src: local("Oxygen Light"), local("Oxygen-Light"), url("../fonts/oxygen/oxygen-v5-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/oxygen/oxygen-v5-latin-300.woff2") format("woff2"), url("../fonts/oxygen/oxygen-v5-latin-300.woff") format("woff"), url("../fonts/oxygen/oxygen-v5-latin-300.ttf") format("truetype"), url("../fonts/oxygen/oxygen-v5-latin-300.svg#Oxygen") format("svg");
-}
-
-@font-face {
-  font-family: 'Oxygen';
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/oxygen/oxygen-v5-latin-regular.eot");
-  src: local("Oxygen"), local("Oxygen-Regular"), url("../fonts/oxygen/oxygen-v5-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/oxygen/oxygen-v5-latin-regular.woff2") format("woff2"), url("../fonts/oxygen/oxygen-v5-latin-regular.woff") format("woff"), url("../fonts/oxygen/oxygen-v5-latin-regular.ttf") format("truetype"), url("../fonts/oxygen/oxygen-v5-latin-regular.svg#Oxygen") format("svg");
-}
-
-@font-face {
-  font-family: 'Oxygen';
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/oxygen/oxygen-v5-latin-700.eot");
-  src: local("Oxygen Bold"), local("Oxygen-Bold"), url("../fonts/oxygen/oxygen-v5-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/oxygen/oxygen-v5-latin-700.woff2") format("woff2"), url("../fonts/oxygen/oxygen-v5-latin-700.woff") format("woff"), url("../fonts/oxygen/oxygen-v5-latin-700.ttf") format("truetype"), url("../fonts/oxygen/oxygen-v5-latin-700.svg#Oxygen") format("svg");
-}
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700');
 
 /* -----------------------------------------------------------------------------
 
   BOX SIZING RESET
-  
+
 ----------------------------------------------------------------------------- */
 *,
 *::before,
@@ -45,7 +23,7 @@ html {
 /* -----------------------------------------------------------------------------
 
   ROOT ELEMENTS
-  
+
 ----------------------------------------------------------------------------- */
 html,
 body {
@@ -65,7 +43,7 @@ body {
 /* -----------------------------------------------------------------------------
 
   HEADING ELEMENTS
-  
+
 ----------------------------------------------------------------------------- */
 h1,
 h2,
@@ -81,10 +59,10 @@ h6 {
 /* -----------------------------------------------------------------------------
 
   TEXT ELEMENTS
-  
+
 ----------------------------------------------------------------------------- */
 a {
-  color: #dc446e;
+  color: #b31b1b;
   text-decoration: none;
 }
 
@@ -105,7 +83,7 @@ em {
 /* -----------------------------------------------------------------------------
 
   MEDIA ELEMENTS
-  
+
 ----------------------------------------------------------------------------- */
 img {
   max-width: 100%;
@@ -115,7 +93,7 @@ img {
 /* -----------------------------------------------------------------------------
 
   CONTAINER OBJECTS
-  
+
 ----------------------------------------------------------------------------- */
 .o-container {
   margin: 0 auto;
@@ -138,7 +116,7 @@ img {
 /* -----------------------------------------------------------------------------
 
   HEADER OBJECT
-  
+
 ----------------------------------------------------------------------------- */
 .o-header {
   margin: 0;
@@ -154,7 +132,7 @@ img {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #dc446e;
+  background-color: #b31b1b;
 }
 
 .o-header-nav__link {
@@ -164,7 +142,7 @@ img {
 
 .o-header-nav__link:hover {
   color: #fff;
-  background-color: #9d1d41;
+  background-color: #990f0f;
 }
 
 .o-header__title {
@@ -186,7 +164,7 @@ img {
 /* -----------------------------------------------------------------------------
 
   MAIN OBJECT
-  
+
 ----------------------------------------------------------------------------- */
 .o-main {
   /**/
@@ -195,7 +173,7 @@ img {
 /* -----------------------------------------------------------------------------
 
   SECTION OBJECT
-  
+
 ----------------------------------------------------------------------------- */
 .o-section {
   margin-bottom: 24px;
@@ -214,7 +192,7 @@ img {
 /* -----------------------------------------------------------------------------
 
   SUB-NAVIGATION OBJECT
-  
+
 ----------------------------------------------------------------------------- */
 .o-sub-nav {
   margin: 0;
@@ -253,13 +231,13 @@ img {
 .o-sub-nav__link:hover,
 .o-sub-nav__item.active .o-sub-nav__link {
   color: #fff;
-  background-color: #dc446e;
+  background-color: #990f0f;
 }
 
 /* -----------------------------------------------------------------------------
 
   FOOTER OBJECT
-  
+
 ----------------------------------------------------------------------------- */
 .o-footer {
   padding: 12px 0;
@@ -281,7 +259,7 @@ img {
 /* -----------------------------------------------------------------------------
 
   TABS COMPONENT
-  
+
 ----------------------------------------------------------------------------- */
 /**
  * Tabs component
@@ -346,7 +324,7 @@ img {
 }
 
 .c-tabs-nav__link.is-active {
-  color: #dc446e;
+  color: #b31b1b;
   background-color: #e7e7e7;
 }
 
@@ -411,7 +389,7 @@ img {
 /* -----------------------------------------------------------------------------
 
   CARBON AD COMPONENT
-  
+
 ----------------------------------------------------------------------------- */
 #carbonads {
   position: fixed;
