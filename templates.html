@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Theme derived from Nick Salloum <nick@callmenick.com>
+License: [MIT](http://www.opensource.org/licenses/mit-license.php)
+-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Project TRACE: Templates</title>
+  <meta name="description" content="(Transparent Research Access in Confidential Enclaves)">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/favicon.png">
+</head>
+<body>
+
+<header class="o-header">
+  <nav class="o-header-nav">
+    <a href="index.html" class="o-header-nav__link"><i class="fa fa-arrow-left"></i>Home</a>
+    <!-- a href="http://callmenick.com/post/simple-responsive-tabs-javascript-css" class="o-header-nav__link">Next <i class="fa fa-star"></i></a-->
+  </nav>
+  <div class="o-container">
+    <h1 class="o-header__title">TRACE Templates </h1>
+  </div>
+</header>
+
+<main class="o-main">
+  <div class="o-container">
+
+    <div class="o-section">
+      <div id="tabs" class="c-tabs no-js">
+        <div class="c-tabs-nav">
+          <a href="index.html" class="c-tabs-nav__link is-active">
+            <i class="fa fa-home"></i>
+            <span>Home</span>
+          </a>
+          <a href="#" class="c-tabs-nav__link">
+            <i class="fa fa-capsules"></i>
+            <span>In the RADE</span>
+          </a>
+          <a href="#" class="c-tabs-nav__link">
+            <i class="fa fa-book"></i>
+            <span>For publication</span>
+          </a>
+        </div>
+        <div class="c-tab is-active">
+          <div class="c-tab__content">
+            <h2>Templates</h2>
+            <h3>Overview</h3>
+            <p>These templates are <i>unofficial</i> examples of how to set up and document reproducibility in Restricted Access Data Environments (RADE)</p>
+          </div>
+        </div>
+        <div class="c-tab">
+          <div class="c-tab__content">
+            <h2>In the RADE</h2>
+            <p>We will enable greater transparency of research undertaken by academics, graduate students, and agency staff. The methods and procedures developed will be applicable to many restricted access data environments. We will train researchers how to conduct research in a replicable manner, filling a void in the available curricula for replicable research. In addition, we develop new formally private verification measures adapted for replication studies.</p>
+          </div>
+        </div>
+        <div class="c-tab">
+          <div class="c-tab__content">
+            <h2>For publication</h2>
+            <p> When documenting the research that has been conducted in a RADE, properly referencing all the permissions, project numbers, and release of results is becoming increasingly important for full documentation of provenance.</p>
+            <p>These templates are examples that agencies could provide to researchers, or that researchers can request from agencies.</p>
+            <p>Consult the <i class="fa fa-book"></i> <a href="templates-publication.html">list of publication templates</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="o-footer">
+  <div class="o-container">
+    <small>&copy; 2017, Lars Vilhuber, Labor Dynamics Institute, Cornell University <i class="fa fa-graduation-cap"></i></small>
+  </div>
+</footer>
+
+<script src="js/src/tabs.js"></script>
+<script>
+  var myTabs = tabs({
+    el: '#tabs',
+    tabNavigationLinks: '.c-tabs-nav__link',
+    tabContentContainers: '.c-tab'
+  });
+
+  myTabs.init();
+</script>
+
+<!-- EXTERNAL SCRIPTS FOR CALLMENICK.COM, PLEASE DO NOT INCLUDE -->
+<!-- /EXTERNAL SCRIPTS -->
+
+</body>
+</html>
